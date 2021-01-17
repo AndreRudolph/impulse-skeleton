@@ -1,0 +1,14 @@
+{
+    "packages": {
+        "AndreRudolph/impulse-skeleton": {
+            "dev-master": {
+                "name": "AndreRudolph/impulse-skeleton",
+                "version": "1.0-alpha",
+                "dist": {
+                    "url": "https://github.com/AndreRudolph/impulse-skeleton",
+                    "type": "url"
+                }
+            },
+        }
+    }
+}
