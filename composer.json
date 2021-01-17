@@ -1,0 +1,36 @@
+{
+  "type": "project",
+  "license": "proprietary",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "symfony/website-skeleton": "5.2.99",
+    "symfony/apache-pack": "1.0",
+    "symfony/webpack-encore-bundle": "1.9.0"
+  },
+  "extra": {
+    "symfony": {
+      "require": "5.2.*",
+      "endpoint": "https://flex.impulse-php.com/"
+    }
+  },
+  "repositories": {
+    "impulsebundle": {
+      "type": "vcs",
+      "url": "https://Atomtastic@bitbucket.org/Atomtastic/impulsebundle.git"
+    },
+    "impulsedebugbundle": {
+      "type": "vcs",
+      "url": "https://Atomtastic@bitbucket.org/Atomtastic/impulsedebugbundle.git"
+    }
+  },
+  "scripts": {
+    "post-create-project-cmd": [
+      "npm install",
+      "npm install --save jquery",
+      "npm install sass-loader@^9.0.1 --save-dev",
+      "rm -rf ./assets/*",
+      "composer require impulsephp/impulsebundle dev-master"
+    ]
+  }
+}
