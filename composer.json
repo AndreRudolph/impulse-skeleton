@@ -80,9 +80,9 @@
       "composer require impulsephp/impulsebundle:dev-master@dev",
       "sed -i.bak 's/.enableStimulusBridge/\\/\\/.enableStimulusBridge/g' webpack.config.js",
       "sed -i.bak 's/\\/\\/.enableSassLoader/.enableSassLoader/g' webpack.config.js",
-      "sed -i.bak 's/\\/\\/.autoProvidejQuery/..autoProvidejQuery/g' webpack.config.js",
-      "sed -i.bak 's/addEntry(\'app\', \'.\\/assets/app.js\')/addEntry(\'app\', [\'./assets/js/app.js'\, \'.\\/assets\\/scss\\/app.scss\'])/g' webpack.config.js",
-      "sed -i.bak 's/setPublicPath(\'\\/build\')/..setPublicPath(\'build\')/g' webpack.config.js"
+      "sed -i.bak 's/\\/\\/.autoProvidejQuery/.autoProvidejQuery/g' webpack.config.js",
+      "sed -i.bak 's/addEntry(\\'app\\', \\'.\\/assets/app.js\\')/addEntry(\\'app\\', [\\'./assets/js/app.js\\', \\'.\\/assets\\/scss\\/app.scss\\'])/g' webpack.config.js",
+      "sed -i.bak 's/setPublicPath(\\'\\/build\\')/..setPublicPath(\\'build\\')/g' webpack.config.js"
     ]
   }
 }
