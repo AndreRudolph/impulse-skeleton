@@ -77,7 +77,8 @@
       "npm install --save jquery",
       "npm install sass-loader@^9.0.1 --save-dev",
       "rm -rf ./assets/*",
-      "composer require impulsephp/impulsebundle:dev-master@dev"
+      "composer require impulsephp/impulsebundle:dev-master@dev",
+      "sed -i.bak 's/.enableStimulusBridge(\'./assets/controllers.json\')/\/\/.enableStimulusBridge(\'./assets/controllers.json\')' webpack.config.js"
     ]
   }
 }
