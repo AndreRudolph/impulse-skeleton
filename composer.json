@@ -62,7 +62,7 @@
     }
   },
   "scripts": {
-    "post-create-project-cmd": [
+    "post-install-cmd": [
       "npm install",
       "npm install --save jquery",
       "npm install sass-loader@^9.0.1 --save-dev",
