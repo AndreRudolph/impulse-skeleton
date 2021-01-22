@@ -73,7 +73,7 @@
   },
   "scripts": {
     "auto-scripts": {
-      "cache:clear", "symfony-cmd"
+      "cache:clear": "symfony-cmd"
     },
     "post-install-cmd": [
       "npm install",
@@ -82,7 +82,7 @@
       "npm install node-sass --save-dev",
       "rm -rf ./assets/*",
       "composer require impulsephp/impulsebundle:dev-master@dev",
-      "@auto-scripts"      
+      "@auto-scripts"
     ]
   }
 }
