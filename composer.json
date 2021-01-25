@@ -82,6 +82,7 @@
       "npm install node-sass@4.14.1 --save-dev",
       "rm -rf ./assets/*",
       "composer require impulsephp/impulsebundle:dev-master@dev",
+      "composer require impulsephp/impulsedebugbundle:dev-master@dev",
       "@auto-scripts"
     ]
   }
